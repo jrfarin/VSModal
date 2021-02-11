@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <!--Required meta tags-->
         <meta charset="utf-8">
@@ -14,16 +14,20 @@
         <h4 class="font-weight-light text-center text-uppercase border-bottom pb-2 m-3">Venca Custom Modal</h4>
 
         <section id="customModal" class="m-4">
-            <button type="button" class="btn btn-info open-modal" data-open="modal1">Open Modal</button>
+            <button type="button" class="btn btn-info open-modal" data-open="vcModal">Open Modal</button>
  
-            <div class="modal" id="modal1">
+            <div class="modal" id="vcModal">
                 <div class="modal-dialog">
                     <header class="modal-header">
-                    ...
+                        Header VC Modal
                         <button class="close-modal" aria-label="close modal" data-close>✕</button>
                     </header>
-                    <section class="modal-content">...</section>
-                    <footer class="modal-footer">...</footer>
+                    <section class="modal-content">
+                        <p><strong>Press ✕, ESC, or click outside of the modal to close it</strong></p>
+                    </section>
+                    <footer class="modal-footer">
+                        Footer VC Modal
+                    </footer>
                 </div>
             </div>
         </section>
